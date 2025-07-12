@@ -1,0 +1,9 @@
+# === core web stack ===
+Flask==3.1.1
+Flask-Cors==6.0.1          # CORS headers for Postman / browsers
+
+# === OpenAI-compatible client that talks to Ollama ===
+openai>=1.30.5,<2.0         # 1.x line; 2.x is still beta
+
+# === nice-to-have (loads .env if you add one) ===
+python-dotenv==1.1.1        # optional but tiny
