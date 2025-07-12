@@ -10,6 +10,10 @@ pip install -r requirements.txt
 # Trailblazer Chat – API Reference
 
 > Local Flask backend powered by Ollama (Llama 3 or compatible model)
+>
+> in a new terminal type:
+```ollama run llama3```
+```ollama serve```
 
 ---
 
